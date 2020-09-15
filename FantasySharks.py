@@ -13,7 +13,7 @@ segcap=708
 starpos=1
 poscap=15
 pos=1
-#os.mkdir("fftoday")
+os.mkdir("fftoday")
 
 for seg in range(1+segcap-segment):
     os.mkdir(str(seg+segment))
