@@ -1,8 +1,6 @@
 import requests
 import os
-import requests
 from bs4 import BeautifulSoup
-#TESTTTEST
 
 # headers is needed so fantasysharks knows what browser we claim to be using.
 headers = {'User-Agent': 'Chrome/39.0.2171.95'}
@@ -55,3 +53,4 @@ for pos in range(8):
         
     document="Player,Team,Bye,Att,Yard,TD,Rec,Yard,ReceivingTD,FPts"+document
     open(file, 'w').write(document)
+#updated 
